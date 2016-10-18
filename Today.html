@@ -8,19 +8,22 @@
 		<body>
 		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 		<hr/>
+		
+		
 		<div class="body">
-			<div class="col-lg-2 well">
-				<div class="btn-group-vertical" role="group" aria-label="...">
- 					<a href="information.html" class="btn btn-default">Infomation</a>
-  					<a href="Today.html" class="btn btn-default active">Today</a>
-  					<a href="calendar.html" class="btn btn-default">Calendar</a>
-				</div>
+			<div class="col-lg-2">
+				<ul class="nav nav-pills nav-stacked">
+				  <li role="presentation" ><a href="information.html">Infomation </a></li>
+				  <li role="presentation" class="active"><a href="Today.html">Today</a></li>
+				  <li role="presentation"><a href="calendar.html">Calendar</a></li>
+				</ul>
 			</div>
 			<div class="col-lg-7 well">
+			<div class="panel panel-primary">
 				<table class="table table-bordered">
 					<tr>
-					    <th>Event</th>
-					    <th>Time</th> 
+					    <th>Event <span class="glyphicon glyphicon-list-alt"></span></th>
+					    <th>Time <span class="glyphicon glyphicon-time"></span></th> 
 					    
 					  </tr>
 					  <tr>
@@ -29,25 +32,27 @@
 					    
 					  </tr>
 					  <tr>
-					    <td>Quay Tay</td>
+					    <td>Go to school</td>
 					    <td>7:00 AM</td>
 					  </tr>
   				</table>
+  			</div>
   				<div class="col-lg-offset-3 col-lg-6">
   				<a href="addevent.html" class="btn btn-default active">Add Event</a>
   				<button type="button" class="btn btn-primary">Edit Event</button>
   				<button type="button" class="btn btn-danger">Delete Evennt</button>
   				</div>
 			</div>
-			<div class="col-lg-3 well">
-				<form class="navbar-form navbar-left" role="search">
-				  <div class="form-group">
-				    <input type="text" class="form-control" placeholder="Search">
-				  </div>
-				  <button type="submit" class="btn btn-default">Search</button>
-				</form>
+		</div>
+		<br><br><br><br><br><br><br><br><br><br><br><br>
+			</hr>
+			<footer class="site-footer">
+			<div class="container">
+			<div class="row">
+				<p style="text-align:center;">Nhóm 18</p>
 			</div>
 			</div>
+			</footer>
 			<script src="js/jquery.highchartTable.js"></script>
 			<link rel="stylesheet" href="css/bootstrap.min.css">
 			<script src="js/bootstrap.min.js"></script>	

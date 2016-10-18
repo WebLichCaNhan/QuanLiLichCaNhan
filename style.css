@@ -26,3 +26,7 @@ display: table-cell;
 vertical-align: middle;
  
 }
+.site-footer{
+	background-color: #222;
+	color: #fff;
+}
